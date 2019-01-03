@@ -1,0 +1,303 @@
+* {
+  font-family: 'Changa One', cursive;
+}
+
+html {
+  background: url(images/background-template.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+nav {
+  color: #c0c0c0;
+  display: flex;
+  height: 12vh;
+  padding: 1px;
+  justify-content: center;
+  background: rgba(44, 3, 3, 0.7);
+  border: #c0c0c0 1px solid;
+  border-radius: 8px;
+  margin-bottom: 2vh;
+}
+
+main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  display: block;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+hr {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 1px;
+  background-color: #060b4b solid;
+}
+
+.superhero-header {
+  color: #fff;
+  text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777,
+    0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333,
+    0px 8px 7px #001135;
+  font: 10vh 'Changa One';
+  display: inline-block;
+}
+
+.superhero-subheader {
+  color: #fff;
+  font: 5vh 'Changa One';
+  text-shadow: 2px 2px 2px #000000;
+}
+
+.navButtonLeft {
+  border: 1px solid #000;
+  background-color: #c0c0c0;
+  border-radius: 8px;
+  padding: 5px 5px 5px 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff2d95,
+    0 0 30px #ff2d95, 0 0 40px #ff2d95, 0 0 50px #ff2d95, 0 0 75px #ff2d95;
+  font-family: 'Changa One', cursive;
+  color: rgb(77, 7, 7);
+  text-align: center;
+  text-decoration: none;
+  font-size: 3vh;
+  display: inline-block;
+  vertical-align: center;
+  margin-right: 3vw;
+}
+
+.navButtonRight {
+  border: 1px solid #000;
+  background-color: #c0c0c0;
+  border-radius: 8px;
+  padding: 5px 5px 5px 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff2d95,
+    0 0 30px #ff2d95, 0 0 40px #ff2d95, 0 0 50px #ff2d95, 0 0 75px #ff2d95;
+  font-family: 'Changa One', cursive;
+  color: rgb(77, 7, 7);
+  text-align: center;
+  text-decoration: none;
+  font-size: 3vh;
+  display: inline-block;
+  vertical-align: center;
+  margin-left: 3vw;
+}
+
+.loginComponent {
+  width: 100vw;
+  vertical-align: top;
+  padding: 10px;
+  text-align: center;
+}
+
+.loginMainPhoto {
+  width: 40vw;
+  border: 2px rgb(250, 248, 248) solid;
+  border-radius: 8px;
+  background-color: rgba(243, 237, 237, 0.6);
+  margin: 5px;
+  vertical-align: top;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+}
+
+.loginButton {
+  border: 1px solid #000;
+  background-color: #c0c0c0;
+  border-radius: 8px;
+  padding: 5px 5px 5px 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff2d95,
+    0 0 30px #ff2d95, 0 0 40px #ff2d95, 0 0 50px #ff2d95, 0 0 75px #ff2d95;
+  font-family: 'Changa One', cursive;
+  color: rgb(77, 7, 7);
+  text-align: center;
+  text-decoration: none;
+  font-size: 3vh;
+  display: inline-block;
+  vertical-align: center;
+}
+
+.teamComponent {
+  width: 60vw;
+  display: inline-block;
+  vertical-align: top;
+  padding: 0px;
+  text-align: left;
+  float: left;
+}
+
+.teamContainer {
+  border: 1px black solid;
+  border-radius: 8px;
+  background-color: antiquewhite;
+  padding: 5px;
+  margin: 5px;
+  width: 15vw;
+  height: 52vh;
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px;
+  text-align: center;
+  float: left;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+}
+
+.singleTeamContainer {
+  border: 2px rgb(250, 248, 248) solid;
+  border-radius: 8px;
+  background-color: rgba(243, 237, 237, 0.6);
+  padding: 5px;
+  margin: 5px;
+  width: 51vw;
+  vertical-align: top;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+}
+
+.teamLinkName {
+  text-decoration: none;
+  font: 3vh 'Changa One';
+}
+
+.singleTeamName {
+  text-decoration: none;
+  font: 5vh 'Changa One';
+  margin: 0px;
+  padding: 0px;
+}
+
+.singleTeamNameSmaller {
+  text-decoration: none;
+  font: 3vh 'Changa One';
+  margin: 0px;
+  padding: 0px;
+}
+
+.component-header {
+  color: rgb(230, 217, 43);
+  text-shadow: 0px 3px 0px #001135;
+  font: 5vh 'Changa One';
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  text-align: center;
+}
+
+.bigLogo {
+  width: 15vw;
+  max-height: 32vh;
+}
+
+.smallLogo {
+  width: 5vw;
+  margin-top: 1vh;
+}
+
+.smallHeroLogo {
+  width: 4vw;
+  margin-top: 1vh;
+  margin-left: 1vh;
+  margin-right: 1vh;
+  vertical-align: center;
+}
+
+.smallHeroDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1vh;
+}
+
+.formComponent {
+  width: 33vw;
+  margin-top: 1vh;
+  display: inline-block;
+  vertical-align: top;
+  padding: 2vh;
+  text-align: left;
+  float: left;
+  background: rgba(32, 13, 100, 0);
+}
+
+.labelClass {
+  font: 2vh 'Changa One';
+  color: #060b4b;
+  text-decoration: none;
+  width: 33vw;
+  float: top;
+}
+
+.formField {
+  font: 3vh 'Changa One';
+  color: #060b4b;
+  text-decoration: none;
+  width: 32vw;
+}
+
+.formImage {
+  width: 30vw;
+}
+
+.noListingHere {
+  color: #fff;
+  font: 4vh 'Changa One';
+  text-shadow: 2px 2px 2px #000000;
+  margin: 1px;
+  text-align: center;
+}
+
+.smallHeroContainer {
+  border: 1px black solid;
+  border-radius: 8px;
+  background-color: antiquewhite;
+  padding: 5px;
+  margin: 5px;
+  width: 11vw;
+  height: 25vh;
+  display: inline-block;
+  vertical-align: top;
+  padding: 5px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+}
+
+.smallHeroLinkName {
+  text-decoration: none;
+  font: 3vh 'Changa One';
+}
+
+.smallHeroImage {
+  width: 6vw;
+  margin-top: 1vh;
+}
+
+.deleteButton {
+  border: 1px solid #000;
+  background-color: #420909;
+  border-radius: 8px;
+  padding: 3px 3px 3px 3px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  font-family: 'Changa One', cursive;
+  color: rgb(248, 245, 245);
+  text-align: center;
+  text-decoration: none;
+  font-size: 2vh;
+  display: inline-block;
+  vertical-align: center;
+  margin-top: 3vh;
+}
